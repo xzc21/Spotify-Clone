@@ -1,0 +1,55 @@
+{
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "editor.minimap.enabled": false,
+    "jupyter.askForKernelRestart": false,
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "left"
+    },
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "python.defaultInterpreterPath": "C:\\Python310\\python.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "[c]": {
+      "editor.rulers": [80]
+    },
+    "remote.SSH.remotePlatform": {
+      "linux.student.cs.uwaterloo.ca": "linux"
+    },
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false,
+      "typescriptreact": false
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true
+    },
+    "workbench.startupEditor": "none",
+  
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false
+    },
+  
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Night Owl",
+    "explorer.confirmDelete": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+  
