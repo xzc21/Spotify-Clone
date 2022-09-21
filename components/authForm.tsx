@@ -1,7 +1,6 @@
 import { Box, Flex, Input, Button } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { useSWRConfig } from "swr";
 import NextImage from "next/image";
 import { auth } from "../lib/mutations";
 
@@ -11,7 +10,7 @@ const AuthForm = ({ mode }) => {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
-  const handleSumbit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
 
@@ -32,7 +31,7 @@ const AuthForm = ({ mode }) => {
       </Flex>
       <Flex justify="center" align="center" height="calc(100vh - 100px)">
         <Box padding="50px" bg="gray.900" borderRadius="6px">
-          <form onSubmit={handleSumbit}>
+          <form onSubmit={handleSubmit}>
             <Input
               placeholder="email"
               type="email"
