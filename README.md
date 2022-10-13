@@ -1,3 +1,14 @@
+# Musify
+Musify is a web app clone of Spotify with features such as playlist, audio player, shuffle, etc
+
+Image Demo:
+
+![image](https://user-images.githubusercontent.com/70451028/195498388-645aed99-f742-49d5-85d9-4e849054ba55.png)
+![image](https://user-images.githubusercontent.com/70451028/195498303-7220780b-4e6b-4552-923f-a46010f23189.png)
+
+
+-----------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
